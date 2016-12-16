@@ -13,10 +13,10 @@
   },
   "scripts": {
     "sparkline": "browserify -t brfs sparkline/plot.js -o bundle.js",
-    "bubbleChart" : "browserify -t brfs bubbleChart/plot.js -o bundle.js",
-    "stackedColumnChart" : "browserify -t brfs stackedColumnChart/plot.js -o bundle.js"
+    "bubbleChart": "browserify -t brfs bubbleChart/plot.js -o bundle.js",
+    "stackedColumnChart": "browserify -t brfs stackedColumnChart/plot.js -o bundle.js",
+    "readme": "node ./node_modules/.bin/node-readme"
   },
-
   "files": [
     "index.js"
   ],
@@ -24,11 +24,12 @@
     ""
   ],
   "dependencies": {
-    "d3" : "4.4.0",
-    "brfs" : "1.4.3"
-    },
+    "d3": "4.4.0",
+    "brfs": "1.4.3"
+  },
   "devDependencies": {
     "ava": "^0.15.0",
+    "node-readme": "^0.1.9",
     "xo": "^0.16.0"
   },
   "xo": {
