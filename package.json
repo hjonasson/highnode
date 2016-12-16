@@ -1,6 +1,6 @@
 {
   "name": "highnode",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Node module to make highcharts a little more usable",
   "license": "MIT",
   "repository": "hjonasson/highnode",
@@ -18,7 +18,12 @@
     "readme": "node ./node_modules/.bin/node-readme"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "index.html",
+    "sparkline",
+    "stackedColumnChart"
+    "style.css",
+    "bubbleChart"
   ],
   "keywords": [
     ""
