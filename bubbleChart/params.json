@@ -1,0 +1,14 @@
+{	
+	"xlabel" : "Daily fat intake",
+	"ylabel" : "Daily sugar intake",
+	"title" : "Sugar and fat intake per country",
+	"xtipformat" : "{value} gr",
+	"ytipformat" : "{value} gr",
+	"xunit" : "g",
+	"yunit" : "g",
+	"xdescr" : "Fat intake",
+	"ydescr" : "Sugar intake",
+	"rdescr" : "Obesity (adults)",
+	"subtitle" : "Source: <a href='http://www.euromonitor.com/'>Euromonitor</a> and <a href='https://data.oecd.org/'>OECD</a>"
+}
+

@@ -1,0 +1,37 @@
+{
+  "name": "highnode",
+  "version": "0.0.0",
+  "description": "Node module to make highcharts a little more usable",
+  "license": "MIT",
+  "repository": "hjonasson/highnode",
+  "author": {
+    "name": "Hjortur Jonasson",
+    "email": "hjorturjonasson@gmail.com"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "sparkline": "browserify -t brfs sparkline/plot.js -o bundle.js",
+    "bubbleChart" : "browserify -t brfs bubbleChart/plot.js -o bundle.js",
+    "stackedColumnChart" : "browserify -t brfs stackedColumnChart/plot.js -o bundle.js"
+  },
+
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {
+    "d3" : "4.4.0",
+    "brfs" : "1.4.3"
+    },
+  "devDependencies": {
+    "ava": "^0.15.0",
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "esnext": true
+  }
+}

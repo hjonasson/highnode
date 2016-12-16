@@ -1,0 +1,6 @@
+{
+	"title" : "Stacked column chart",
+	"ylabel" : "Total fruit consumption",
+	"type" : "column",
+	"stacking" : "normal"
+}
