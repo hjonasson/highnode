@@ -18,6 +18,7 @@
     "readme": "node ./node_modules/.bin/node-readme"
   },
   "files": [
+    ".gitignore"
     "index.html",
     "sparkline",
     "stackedColumnChart",
